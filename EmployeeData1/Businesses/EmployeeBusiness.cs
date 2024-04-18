@@ -12,11 +12,6 @@ namespace EmployeeData1.Businesses
         new EmployeeMaster { EmployeeId = 4, Name = "Saloni", Position = "Senior Software Developer", Salary = 65000, JoinDate = new DateTime(2013, 09, 10) },
         new EmployeeMaster { EmployeeId = 5, Name = "Rakesh", Position = "Software Engineer", Salary = 52500, JoinDate = new DateTime(2023, 02, 01) }
     ];
-        public List<EmployeeMaster> GetEmployee()
-        {
-            var result = _employees;
-            return result;
-        }
 
         public EmployeeMaster? GetEmployeeById(int id)
         {
